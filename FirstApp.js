@@ -14,8 +14,12 @@ function FirstApp() {
     else {
       wish = 'night'
     }
+  const styles = {
+    color:green,
+    backgroundColor:white //in JS, it is background-color
+  }
   return (
-    <h1>Good {wish} and the time was {hours+":"+sec}</h1>
+    <h1 style = {styles}>Good {wish} and the time was {hours+":"+sec}</h1>
   )
 }
 
