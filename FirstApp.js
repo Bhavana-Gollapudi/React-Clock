@@ -1,9 +1,6 @@
-import logo from './logo.svg';
-//import './App.css';
 import React from 'react';
-//import Footer from './Footer';
 
-function App() {
+function FirstApp() {
   const date = new Date()
   const hours = date.getHours()
   const sec = date.getSeconds()
